@@ -55,7 +55,7 @@
   align-items: center;
   .content {
     position: relative;
-    width: 400px;
+    width: 300px;
     animation: pop-up 0.3s forwards;
     .close-btn {
       position: absolute;
