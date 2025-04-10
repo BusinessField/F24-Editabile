@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F24 Editabile</title>
+    <!-- Bootstrap Link -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-white">
+          <div class="container-fluid">
+            <a class="navbar-brand text-uppercase" href="./">F24 Editabile</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./f24-models.html">F24 Models</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <section class="landing main-bg text-light">
+      <div class="container h-100">
+        <div class="content w-100 text-center">
+          <h1 class="text-uppercase">F24 Editabile</h1>
+          <p>Modelli F24 Editabile e Stampa PDF</p>
+          <a id="start-btn" class="btn bg-white text-black px-5 py-2">Inizio</a>
+        </div>
+      </div>
+    </section>
+    <!-- End Landing -->
+    <!-- Start Models -->
+    <section class="models py-5">
+      <h2 class="text-center mb-4">Modelli</h2>
+      <div class="container">
+        <div
+          id="models-holder"
+          class="row justify-content-center gap-md-0"
+        ></div>
+      </div>
+    </section>
+    <!-- End Models -->
+    <!-- Start Footer -->
+    <footer class="py-4">
+      <div class="container">
+        <div class="content text-white text-center">
+          <p class="m-0">
+            All Rights Reserved to F24 Editable - &copy;
+            <span class="main-color text-uppercase">F24 Editable</span>
+            <span id="year"></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/jspdf/dist/jspdf.umd.js"></script>
+    <script src="./node_modules/html2canvas/dist/html2canvas.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/home.js"></script>
+  </body>
+</html>
