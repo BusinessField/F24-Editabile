@@ -57,6 +57,9 @@
     position: relative;
     width: 300px;
     animation: pop-up 0.3s forwards;
+    @media (min-width: 768px) {
+      width: 380px;
+    }
     .close-btn {
       position: absolute;
       top: -20px;

@@ -8,7 +8,7 @@ let models = [
   {
     modelTitle: "Modello F24 Ordinario",
     modelIcon: "./img/modello-f24-ordinario.png",
-    editePage: "f24-models.html",
+    editePage: "./modello/modello-f24-ordinario.html",
     modelPage: "f24-models.html",
     instructionPage: "f24-models.html",
   },

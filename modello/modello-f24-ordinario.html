@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F24 Editabile: models</title>
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="../css/lib/bootstrap.min.css" />
+    <!-- Main Css Files -->
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/model.css" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header class="py-2">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-white">
+          <div class="container-fluid">
+            <a class="navbar-brand text-uppercase" href="./">F24 Editabile</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="./">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../f24-models.html">F24 Models</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Main -->
+    <main class="mt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 d-none d-lg-block">test</div>
+          <div class="col-lg-8">
+            <h1 class="fs-3 mb-2">modello-f24-ordinario</h1>
+            <div class="inps-holder modello-f24-ordinario" id="parent">
+              <!-- Start Inputs -->
+              <div class="head">
+                <div class="head-inp1">
+                  <input type="text" />
+                </div>
+                <div class="head-inp2">
+                  <input type="text" />
+                  <input type="text" />
+                </div>
+              </div>
+              <div class="contribuente">
+                <div class="contri-inp1">
+                  <input type="text" maxlength="16" />
+                  <input type="checkbox" />
+                </div>
+                <div class="contri-inp2">
+                  <input type="text" />
+                  <input type="text" />
+                </div>
+                <div class="contri-inp3">
+                  <input type="text" maxlength="8" />
+                  <select>
+                    <option>..</option>
+                    <option>M</option>
+                    <option>F</option>
+                  </select>
+                  <input type="text" />
+                  <input type="text" />
+                </div>
+                <div class="contri-inp4">
+                  <input type="text" />
+                  <input type="text" />
+                  <input type="text" />
+                </div>
+                <div class="contri-inp5">
+                  <input type="text" />
+                  <input type="text" />
+                </div>
+              </div>
+              <!-- End Inputs -->
+            </div>
+          </div>
+        </div>
+        <button class="ms-4 btn btn-success" onclick="capture()">
+          Capture
+        </button>
+      </div>
+    </main>
+    <!-- End Main -->
+    <!-- Start Footer -->
+    <footer class="py-4">
+      <div class="container">
+        <div class="content text-white text-center">
+          <p class="m-0">
+            All Rights Reserved to F24 Editable - &copy;
+            <span class="main-color text-uppercase">F24 Editable</span>
+            <span id="year"></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="../js/lib/bootstrap.bundle.min.js"></script>
+    <script src="../js/lib/html2canvas.min.js"></script>
+    <script src="../js/lib/jspdf.umd.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/model.js"></script>
+  </body>
+</html>
