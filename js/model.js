@@ -2,7 +2,7 @@ const { jsPDF } = jspdf;
 
 function capture() {
   html2canvas(document.getElementById("parent")).then((can) => {
-    let a = document.createElement("a");
+    // let a = document.createElement("a");
     let img = can.toDataURL();
 
     let pdf = new jsPDF();
